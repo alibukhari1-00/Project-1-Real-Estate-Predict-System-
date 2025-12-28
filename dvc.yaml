@@ -1,0 +1,8 @@
+stages:
+  PreprocessData:
+    cmd: python src/process_data.py
+    deps:
+    - data/USA_Housing.csv
+    - src/process_data.py
+    outs:
+    - data/Processed_data_USA.csv
