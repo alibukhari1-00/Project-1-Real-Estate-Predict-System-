@@ -50,4 +50,4 @@ jobs:
       # Is mein loading, shape, aur prediction check hogi
       - name: Run unit test
         run: |
-          pytest testing/ -v
+          pytest test/ -v
