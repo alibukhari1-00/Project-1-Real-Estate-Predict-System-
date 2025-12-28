@@ -48,6 +48,6 @@ jobs:
 
       # 7️⃣ Unit Tests run karna (Task 2.2)
       # Is mein loading, shape, aur prediction check hogi
-      - name: Run unit tests
+      - name: Run unit test
         run: |
-          pytest tests/ -v
+          pytest testing/ -v
